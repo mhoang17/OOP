@@ -25,7 +25,7 @@ class QueueTest {
         // Drain queue
         test.drainWhile(T -> true);
 
-        test.dequeue();
+        //test.dequeue();
     }
 
 }
