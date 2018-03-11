@@ -4,9 +4,7 @@ public class Append <T> {
 
     T[] append (Integer[] a, Integer[] b){
 
-        T[] result;
-
-        result = (T[]) new Integer [a.length + b.length];
+        T[] result = (T[]) new Integer [a.length + b.length];
 
         System.arraycopy(a,0, result, 0, a.length);
 
